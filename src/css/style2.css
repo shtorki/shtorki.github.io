@@ -1255,4 +1255,23 @@ Footer styles
 .testi-slider p {
   color: #333;
 }
+
+@media (max-width: 760px) {
+  .mailheader {
+    padding: 0px;
+  }
+
+  .mailheader .mail {
+    font-size: 0px;
+  }
+}
+
+.mailheader {
+  position: absolute;
+  z-index: 30;
+  font-size: 18px;
+}
+.mailheader a {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
